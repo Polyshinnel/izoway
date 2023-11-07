@@ -1,0 +1,40 @@
+@import 'variables';
+
+.common_btn{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+
+.red_btn{
+    background: $red;
+    color: #fff;
+    font-size: 16px;
+
+    &:hover{
+        background: $hover_red;
+    }
+}
+
+.red_white_btn{
+    background: #fff;
+    color: $red;
+    border: 1px solid $red;
+    font-weight: 700;
+
+    &:hover{
+        background: $red;
+        color: #fff;
+    }
+}
+
+.red_link{
+    text-decoration: none;
+    color: $red;
+    transition: 0.3s all ease;
+
+    &:hover{
+        color: $hover_red;
+    }
+}

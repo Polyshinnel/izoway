@@ -1,0 +1,35 @@
+.common_btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+
+.red_btn {
+  background: #E05310;
+  color: #fff;
+  font-size: 16px;
+}
+.red_btn:hover {
+  background: #C04910;
+}
+
+.red_white_btn {
+  background: #fff;
+  color: #E05310;
+  border: 1px solid #E05310;
+  font-weight: 700;
+}
+.red_white_btn:hover {
+  background: #E05310;
+  color: #fff;
+}
+
+.red_link {
+  text-decoration: none;
+  color: #E05310;
+  transition: 0.3s all ease;
+}
+.red_link:hover {
+  color: #C04910;
+}/*# sourceMappingURL=common.css.map */
