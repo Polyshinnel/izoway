@@ -26,6 +26,22 @@ $('.sertificate-slider__block').owlCarousel({
 })
 
 
+$('.sertificate-slider__block_mod').owlCarousel({
+    loop:true,
+    nav:false,
+    center: true,
+    responsive:{
+        0:{
+            items:1,
+            margin:0,
+        },
+        900:{
+            items:3,
+            margin:5,
+        },
+    }
+})
+
 
 $('.mobile-menu__btn').click(function() {
     let mobMenu = $('.mobile-menu');
