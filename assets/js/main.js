@@ -60,3 +60,21 @@ $(document).mouseup( function(e){
         mobMenu.slideUp();
     }
 });
+
+$('.product-page__tabs li').click(function(){
+    let data = $(this).attr('data-name');
+
+    $('.product-page__tabs li').each(function(){
+        $(this).removeClass('active');
+    })
+
+    $(this).addClass('active')
+    
+    $('.product-page__tab-item').each(function(){
+        $(this).removeClass('product-page__tab-item_active')
+        let tabName = $(this).attr('data-name');
+        if(tabName == data) {
+            $(this).addClass('product-page__tab-item_active')
+        }
+    })
+})
