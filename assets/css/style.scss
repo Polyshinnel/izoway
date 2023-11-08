@@ -2143,6 +2143,59 @@ body{
     }
 }
 
+.download-block__page{
+    padding-bottom: 80px;
+}
+
+.download-block__unit{
+    margin-top: 40px;
+
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+        color: $black;
+    }
+
+    a{
+        text-decoration: none;
+        color: #F89630;
+        transition: 0.3s all ease;
+
+        &:hover{
+            color: $red;
+        }
+    }
+
+    .download-block__wrapper{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+
+        .download-block__item{
+            width: 194px;
+            margin-left: 15px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: 0.3s all ease;
+
+            p{
+                margin-top: 10px;
+            }
+
+            &:hover{
+                svg{
+                    path{
+                        fill: $red;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media(max-width: 1260px) {
     .box-container{
         width: 950px;
@@ -3147,6 +3200,20 @@ body{
                     p{
                         font-size: 14px;
                     }
+                }
+            }
+        } 
+    } 
+
+    .download-block__unit{
+        .download-block__wrapper{
+            .download-block__item{
+                width: 160px;
+                margin-top: 30px;
+
+                p{
+                    text-align: center;
+                    font-size: 14px;
                 }
             }
         } 
