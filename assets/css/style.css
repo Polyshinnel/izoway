@@ -1888,6 +1888,46 @@ body {
   fill: #E05310;
 }
 
+.page-contact-block {
+  padding-bottom: 50px;
+}
+
+.suggestion {
+  font-size: 16px;
+  color: #200000;
+  margin: 15px 0;
+  line-height: 140%;
+}
+
+.map-block__title {
+  color: #200000;
+  margin: 20px 0;
+}
+.map-block__title h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.map-block__title p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.contacts-block .contacts-block__unit {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-block .contacts-block__unit h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.contacts-block .contacts-block__unit a {
+  display: flex;
+  margin-top: 10px;
+  color: #200000;
+  text-decoration: none;
+}
+
 @media (max-width: 1260px) {
   .box-container {
     width: 950px;
